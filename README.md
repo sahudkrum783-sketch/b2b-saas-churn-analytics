@@ -42,7 +42,6 @@ This project solves that problem by building a production-grade **Medallion Data
 
 ## 📁 Repository Structure
 ```text
-├──README.md
 ├──📁 dashboard/
 │   ├── dashboard_screenshot.png 
 │   ├── saas_executive_dashboard.pbix
@@ -50,4 +49,5 @@ This project solves that problem by building a production-grade **Medallion Data
 │   ├── etl_cleaning_and_scoring.py   
 ├── 📁 sql/
 │   ├── 01_data_quality_audit.sql    
-│   ├── 02_star_schema_build.sql        
+│   ├── 02_star_schema_build.sql
+└── README.md       
