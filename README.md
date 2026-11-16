@@ -43,11 +43,11 @@ This project solves that problem by building a production-grade **Medallion Data
 ## 📁 Repository Structure
 ```text
 ├──📁 dashboard/
-│   ├── dashboard_screenshot.png 
-│   ├── saas_executive_dashboard.pbix
+│   ├── dashboard_screenshot.png          # UI preview
+│   ├── saas_executive_dashboard.pbix     # Final Power BI file
 ├── 📁 python/
-│   ├── etl_cleaning_and_scoring.py   
+│   ├── etl_cleaning_and_scoring.py       # Data cleaning and health score logic
 ├── 📁 sql/
-│   ├── 01_data_quality_audit.sql    
-│   ├── 02_star_schema_build.sql
+│   ├── 01_data_quality_audit.sql         # Auditing scripts identifying raw defects
+│   ├── 02_star_schema_build.sql          # Constraint enforcement and view generation
 └── README.md       
